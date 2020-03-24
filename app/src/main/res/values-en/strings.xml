@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="voltar">foward</string>
+    <string name="calcular">calculate</string>
+    <string name="proxima">next</string>
+    <string name="tela_principal">main screen</string>
+    <string name="digite_temperatura_em_ceucius">enter the temperature in celcius</string>
+    <string name="valor_inicial">Initial value</string>
+    <string name="valor_inicial2">amount in us$</string>
+    <string name="aplicacao_mensal">"monthly application "</string>
+    <string name="tempo_aplicação">application time</string>
+    <string name="tempo_aplicação2">in months</string>
+    <string name="taxa">rate</string>
+    <string name="poupança">Savings</string>
+</resources>

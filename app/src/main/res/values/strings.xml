@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">PDM_leandro</string>
+    <string name="voltar">Voltar</string>
+    <string name="calcular">calcular</string>
+    <string name="tela_principal">tela principal!</string>
+    <string name="proxima">proxima</string>
+    <string name="digite_temperatura_em_ceucius">digite a temperatura em Celcius</string>
+    <string name="valor_inicial">Valor inicial</string>
+    <string name="valor_inicial2">Valor em R$</string>
+    <string name="aplicacao_mensal">Aplicacao mensal</string>
+    <string name="aplicacao_mensal2" translatable="false">ex: 100.00</string>
+    <string name="tempo_aplicação">tempo aplicação</string>
+    <string name="tempo_aplicação2">Em meses</string>
+    <string name="taxa">Taxa</string>
+    <string name="taxa2" translatable="false">Ex: 0.02</string>
+    <string name="poupança">Poupança</string>
+</resources>
