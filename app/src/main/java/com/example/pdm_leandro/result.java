@@ -24,8 +24,8 @@ public class result extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void poupança(View view) {
-        Intent intent = new Intent (this, aula_31.class);
+    public void toMenu(View view) {
+        Intent intent = new Intent (this, menu.class);
         startActivity(intent);
     }
 }

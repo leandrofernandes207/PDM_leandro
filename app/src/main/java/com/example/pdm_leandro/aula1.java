@@ -53,8 +53,8 @@ public class aula1 extends AppCompatActivity {
         Log.d("message","on Destroy");
     }
 
-    public void totela2(View view){
-        Intent intent = new Intent (this, tela2.class);
+    public void toMenu(View view) {
+        Intent intent = new Intent (this, menu.class);
         startActivity(intent);
     }
 }

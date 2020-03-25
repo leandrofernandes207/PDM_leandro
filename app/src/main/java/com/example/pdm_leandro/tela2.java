@@ -16,18 +16,18 @@ public class tela2 extends AppCompatActivity {
         setContentView(R.layout.activity_tela2);
 
     }
-    public void totela1(View view){
-        Intent intent = new Intent (this, aula1.class);
-        startActivity(intent);
-    }
+
     public void Calc(View v) {
         Intent intent = new Intent (this, result.class);
         EditText et = (EditText) findViewById(R.id.fahren);
         double fahr = (Double.parseDouble(et.getText().toString()) * 9 / 5) + 32;
-        if(0=0){
-
-        }
         intent.putExtra("celcius",fahr);
         startActivity(intent);
+    }
+
+    public void toMenu(View view) {
+        Intent intent = new Intent (this, menu.class);
+        startActivity(intent);
+
     }
 }

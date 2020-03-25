@@ -17,8 +17,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp">
 
-
             <ImageButton
+                android:contentDescription="@android:string/cancel"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:background="#000000"
@@ -32,7 +32,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/bairros"
-                android:background="#000000"/>/>
+                android:background="#000000"/>
         </TableRow>
         <TableRow
             android:layout_width="wrap_content"
@@ -47,12 +47,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/telefone"
-                android:background="#000000"/>/>
+                android:background="#000000"/>
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/taxi"
-                android:background="#000000"/>/>
+                android:background="#000000"/>
         </TableRow>
         <TableRow
             android:layout_width="wrap_content"

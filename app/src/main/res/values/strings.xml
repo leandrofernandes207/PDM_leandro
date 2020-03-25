@@ -8,10 +8,26 @@
     <string name="valor_inicial">Valor inicial</string>
     <string name="valor_inicial2">Valor em R$</string>
     <string name="aplicacao_mensal">Aplicacao mensal</string>
-    <string name="aplicacao_mensal2" translatable="false">ex: 100.00</string>
+    <string name="aplicacao_mensal2" translatable="false">Ex: 100.00</string>
     <string name="tempo_aplicação">tempo aplicação</string>
     <string name="tempo_aplicação2">Em meses</string>
     <string name="taxa">Taxa</string>
     <string name="taxa2" translatable="false">Ex: 0.02</string>
     <string name="poupança">Poupança</string>
+    <string name="Quiz_de_trânsito">Quiz de trânsito</string>
+    <string name="Questão_11">Q11 - Qual o significado desta placa?</string>
+    <string name="idquestao_11">Questão 11 de 28</string>
+    <string name="Ponte_a_frente">Ponte a frente</string>
+    <string name="estreitamento">Estreitamento de pista</string>
+    <string name="declive">Declive acentuado</string>
+    <string name="redução">Redução da largura de veiculos</string>
+    <string name="px_pergunta">Proxima perguinta</string>
+    <string name="Balaio" >Balaio de Lenha</string>
+    <string name="consumo">Consumo total R$</string>
+    <string name="couvert">Couvert artistico R$</string>
+    <string name="dividir">Dividir conta por</string>
+    <string name="calcular_conta">Calcular conta final</string>
+    <string name="bltaxa">Taxa de seviço (10%) R$</string>
+    <string name="conta_total">Conta total R$</string>
+    <string name="vppessoa">Valor por pessoa R$</string>
 </resources>

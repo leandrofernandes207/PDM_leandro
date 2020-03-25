@@ -23,7 +23,7 @@
         android:id="@+id/btn_voltar1"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:onClick="totela1"
+        android:onClick="toMenu"
         android:text="@string/voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -10,6 +10,22 @@
     <string name="aplicacao_mensal">"monthly application "</string>
     <string name="tempo_aplicação">application time</string>
     <string name="tempo_aplicação2">in months</string>
-    <string name="taxa">rate</string>
+    <string name="taxa">Rate</string>
     <string name="poupança">Savings</string>
+    <string name="Quiz_de_trânsito">Traffic Quiz</string>
+    <string name="Questão_11">" Q11 - what does this road sign mean?"</string>
+    <string name="idquestao_11">" Question 11 of 28"</string>
+    <string name="Ponte_a_frente">" Bridge ahead"</string>
+    <string name="estreitamento">" Runway narrowing"</string>
+    <string name="declive">Steeper slope</string>
+    <string name="redução">Vehicle width reduction</string>
+    <string name="px_pergunta">Next question</string>
+    <string name="Balaio">Balaio de Lenha</string>
+    <string name="consumo">total consumption US$</string>
+    <string name="couvert">Artistic cover charge US$</string>
+    <string name="dividir">divide amount by</string>
+    <string name="calcular_conta">"calculate final cost "</string>
+    <string name="bltaxa">service charge (10%) US$</string>
+    <string name="conta_total">Total amout</string>
+    <string name="vppessoa">"value per person "</string>
 </resources>

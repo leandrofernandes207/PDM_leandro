@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aula 1"
+        android:onClick="totela1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aula 2"
+        android:onClick="totela2"/>
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:shrinkColumns="*"
+       android:stretchColumns="*">
+       <TableRow
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="aula 3 ex 1"
+               android:onClick="toAula31"/>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="aula 3 ex 2"
+               android:onClick="toAula32"/>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="aula 3 ex 3"
+               android:onClick="toAula33"/>
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="aula 3 ex 4"
+               android:onClick="toAula34"/>
+
+       </TableRow>
+   </TableLayout>
+
+</LinearLayout>

@@ -19,22 +19,21 @@
         android:id="@+id/btnCalc"
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:text="@string/proxima"
-        android:onClick="poupança"
+        android:text="Menu"
+        android:onClick="toMenu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.797"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.863"
-        tools:ignore="OnClick" />
+        app:layout_constraintVertical_bias="0.863"/>
 
     <Button
         android:id="@+id/botao2"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:onClick="totela2"
-        android:text="voltar"
+        android:text="@string/voltar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.225"
