@@ -24,6 +24,9 @@ public class tela2 extends AppCompatActivity {
         Intent intent = new Intent (this, result.class);
         EditText et = (EditText) findViewById(R.id.fahren);
         double fahr = (Double.parseDouble(et.getText().toString()) * 9 / 5) + 32;
+        if(0=0){
+
+        }
         intent.putExtra("celcius",fahr);
         startActivity(intent);
     }
