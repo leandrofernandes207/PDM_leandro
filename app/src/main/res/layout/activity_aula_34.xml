@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:text="@string/consumo"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:layout_gravity="center"/>
         <EditText
@@ -26,7 +26,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#fff"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -39,7 +39,7 @@
             android:layout_height="match_parent"
             android:text="@string/couvert"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:layout_gravity="center"/>
         <EditText
@@ -47,7 +47,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#fff"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -60,7 +60,7 @@
             android:layout_height="match_parent"
             android:text="@string/dividir"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:layout_gravity="center"/>
         <EditText
@@ -68,7 +68,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#fff"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <Button
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:text="@string/calcular_conta"
         android:textAllCaps="false"
-        android:textSize="20sp"/>
+        android:textSize="15sp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -88,7 +88,7 @@
             android:layout_height="match_parent"
             android:text="@string/bltaxa"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:layout_gravity="center"/>
         <EditText
@@ -96,7 +96,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#fff"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -109,7 +109,7 @@
             android:layout_height="match_parent"
             android:text="@string/conta_total"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:layout_gravity="center"/>
         <EditText
@@ -117,7 +117,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#fff"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -130,7 +130,7 @@
             android:layout_height="match_parent"
             android:text="@string/vppessoa"
             android:layout_weight="1"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:gravity="center"
             android:layout_gravity="center"/>
         <EditText
@@ -138,7 +138,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#fff"
-            android:textSize="20sp"/>
+            android:textSize="15sp"/>
     </LinearLayout>
 
 

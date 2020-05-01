@@ -39,4 +39,8 @@ public class menu extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void totela4(View view) {
+        Intent intent = new Intent (this, aula_4.class);
+        startActivity(intent);
+    }
 }

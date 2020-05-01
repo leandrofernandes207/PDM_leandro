@@ -49,5 +49,11 @@
 
        </TableRow>
    </TableLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aula 4"
+        android:onClick="totela4"
+        tools:ignore="OnClick" />
 
 </LinearLayout>
