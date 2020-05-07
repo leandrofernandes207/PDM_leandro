@@ -16,6 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".aula_7"></activity>
         <activity android:name=".menu">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,15 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".aula_5"/>
+        <activity android:name=".aula_5" />
         <activity android:name=".aula_4" />
         <activity android:name=".aula_34" />
         <activity android:name=".aula_33" />
         <activity android:name=".aula_32" />
         <activity android:name=".aula_31" />
-        <activity android:name=".result" />
-        <activity android:name=".tela2" />
-        <activity android:name=".aula1" />
+        <activity android:name=".aula_22" />
+        <activity android:name=".aula_21" />
+        <activity android:name=".aula_1" />
     </application>
 
 </manifest>

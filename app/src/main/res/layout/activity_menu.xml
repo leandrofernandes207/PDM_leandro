@@ -49,11 +49,16 @@
 
        </TableRow>
    </TableLayout>
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="aula 4"
-        android:onClick="totela4"
-        tools:ignore="OnClick" />
+        android:onClick="totela4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="aula 7"
+        android:onClick="toAula7"/>
 
 </LinearLayout>

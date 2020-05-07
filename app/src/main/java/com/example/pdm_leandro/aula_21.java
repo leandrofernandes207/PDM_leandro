@@ -4,28 +4,29 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 
-public class result extends AppCompatActivity {
-    TextView res;
+public class aula_21 extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_result);
-        res = (TextView) findViewById(R.id.resultado);
-        Double et = getIntent().getDoubleExtra("celcius",1);
-        res.setText(Double.toString(et));
+        setContentView(R.layout.activity_aula_21);
+
     }
-    public void totela2(View view){
-        Intent intent = new Intent (this, tela2.class);
+
+    public void Calc(View v) {
+        Intent intent = new Intent (this, aula_22.class);
+        EditText et = (EditText) findViewById(R.id.fahren);
+        double fahr = (Double.parseDouble(et.getText().toString()) * 9 / 5) + 32;
+        intent.putExtra("celcius",fahr);
         startActivity(intent);
     }
 
     public void toMenu(View view) {
         Intent intent = new Intent (this, menu.class);
         startActivity(intent);
+
     }
 }

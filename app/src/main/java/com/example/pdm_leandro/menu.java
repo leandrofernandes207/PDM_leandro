@@ -14,12 +14,12 @@ public class menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
     }
     public void totela1(View view){
-        Intent intent = new Intent (this, aula1.class);
+        Intent intent = new Intent (this, aula_1.class);
         startActivity(intent);
     }
 
     public void totela2(View view){
-        Intent intent = new Intent (this, tela2.class);
+        Intent intent = new Intent (this, aula_21.class);
         startActivity(intent);
     }
     public void toAula31(View view){
@@ -41,6 +41,10 @@ public class menu extends AppCompatActivity {
 
     public void totela4(View view) {
         Intent intent = new Intent (this, aula_4.class);
+        startActivity(intent);
+    }
+    public void toAula7(View view) {
+        Intent intent = new Intent (this, aula_7.class);
         startActivity(intent);
     }
 }

@@ -2,19 +2,18 @@ package com.example.pdm_leandro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
-public class aula1 extends AppCompatActivity {
+public class aula_1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Log.d("message","on Create");
-        setContentView(R.layout.activity_aula1);
+        setContentView(R.layout.activity_aula_1);
     }
 
     @Override
